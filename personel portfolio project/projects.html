@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projects</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <div class="full-content" id="fullcontent">
+        <header>
+            <div>
+                <a href="home.html"><h3 id="h3">Fadi</h3></a>
+            </div>
+            <div style="margin-left: 40px;">
+                <p id="dark">Dark:</p>
+                <p id="light">Light:</p>
+                <div id="toggle">
+                    <i class="indicator"></i>
+                </div>
+            </div>
+            
+            <div class="search" id="search">
+                <a href="home.html"><h4>home</h4></a>
+                <a href="skills.html"><h4>skills</h4></a>
+                <a href="projects.html"><h4>projects</h4></a>
+                <a href="contact info.html"><h4>contact</h4></a>
+            </div>
+        </header>
+        <h1>Lastest<span id="proj">Project</span></h1>
+        <div class="content" id="content">
+               <div id="img1"><img src="product.PNG" alt="" style="margin-left: 0;"></div> 
+               <div id="img2"><img  src="Capture d’écran 2024-01-21 143915.jpg" alt=""></div> 
+               <div id="img3"><img  src="Capture d’écran 2024-01-21 144134.jpg" alt=""></div>
+        </div>
+
+        <footer class="headfoot">
+            <div class="tsawer" id="tsawer">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="https://mail.google.com/mail/u/0/#search/fadibencheikh4%40gmail.com?compose=jrjtXFBVMkxpqCTnpDhpnwnCTRTDHTqcMwRvwdLMLBzfWFqKKjqHkHbSbVJHPnGzMxNkfCxH"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.facebook.com/bencheikh.fadi/?locale=fr_FR"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/stark-fg-44911b2a2"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+     <script>
+        const body = document.querySelector('body')
+        const toggle = document.getElementById('toggle');
+        const dark = document.getElementById('dark');
+        const h3 = document.getElementById('h3');
+        const search = document.getElementById('search');
+        const fullcontent = document.getElementById('fullcontent');
+        const tsawer = document.getElementById('tsawer');
+        const content= document.getElementById('content');
+        const proj= document.getElementById('proj');
+        toggle.onclick = function(){
+          toggle.classList.toggle('active')
+          body.classList.toggle('active')
+          dark.classList.toggle('active')
+          h3.classList.toggle('active')
+          search.classList.toggle('active')
+          fullcontent.classList.toggle('active')
+          tsawer.classList.toggle('active')
+          content.classList.toggle('active')
+          proj.classList.toggle('active')
+        }
+      </script>
+</body>
+</html>

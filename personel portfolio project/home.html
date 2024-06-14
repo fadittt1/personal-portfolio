@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="homecss.css">
+</head>
+<body>
+    <div class="full-content" id="fullcontent">
+        <header>
+            <div>
+                <a href="home.html"><h3 id="h3">Fadi</h3></a>
+            </div>
+            <div style="margin-left: 40px;">
+                <p id="dark">Dark:</p>
+                <p id="light">Light:</p>
+                <div id="toggle">
+                    <i class="indicator"></i>
+                </div>
+            </div>
+            
+            <div class="search" id="search">
+                <a href="home.html"><h4>home</h4></a>
+                <a href="skills.html"><h4>skills</h4></a>
+                <a href="projects.html"><h4>projects</h4></a>
+                <a href="contact info.html"><h4>contact</h4></a>
+            </div>
+        </header>
+        <div class="sub-full-content">
+            <div class="left">
+                <div class="content">
+                    <h1>hi,it's <span id="span">fadi</span></h1>
+                    <h2 id="h2">frontend developer</h2>
+                    <p>So, here I am, diving into the world of frontend development! Got my hands dirty with HTML and CSS, building the foundation of web content. JavaScript is my new best friend, adding that extra flair for interactivity. Excited to level up with React or Vue.js, making those websites pop! Design is my thing, and problem-solving is the name of the game. Always on the lookout for the latest trends, I'm all about refining my skills. This journey is a mix of curiosity, creativity, and a promise to deliver seamless digital experiences. Let's see where this frontend adventure takes me!</p>
+                    <a href="file:///C:/Users/SS%20TECH/Desktop/stage/contact%20info.html"><button id="button">for more info</button></a>
+                </div>
+                
+                <footer class="headfoot">
+                    <div class="tsawer" id="tsawer">
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                        <a href="https://mail.google.com/mail/u/0/#search/fadibencheikh4%40gmail.com?compose=jrjtXFBVMkxpqCTnpDhpnwnCTRTDHTqcMwRvwdLMLBzfWFqKKjqHkHbSbVJHPnGzMxNkfCxH"><i class="fa fa-envelope"></i></a>
+                        <a href="https://www.facebook.com/bencheikh.fadi/?locale=fr_FR"><i class="fa fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/stark-fg-44911b2a2"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                </footer>
+            </div>
+            <div class="right">
+                <header class="headfoot">
+                </header>
+                <div>    
+                    <a  href="https://www.facebook.com/bencheikh.fadi/?locale=fr_FR"><img id="img" src="197385990_1497277913950449_592139098915061027_n.jpg" alt="" width="70px"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const body = document.querySelector('body')
+        const toggle = document.getElementById('toggle');
+        const dark = document.getElementById('dark');
+        const img = document.getElementById('img');
+        const h2 = document.getElementById('h2');
+        const button = document.getElementById('button');
+        const tsawer = document.getElementById('tsawer');
+        const h3 = document.getElementById('h3');
+        const search = document.getElementById('search');
+        const fullcontent = document.getElementById('fullcontent');
+        const span = document.getElementById('span');
+        toggle.onclick = function(){
+          toggle.classList.toggle('active')
+          body.classList.toggle('active')
+          dark.classList.toggle('active')
+          img.classList.toggle('active')
+          h2.classList.toggle('active')
+          button.classList.toggle('active')
+          tsawer.classList.toggle('active')
+          h3.classList.toggle('active')
+          search.classList.toggle('active')
+          fullcontent.classList.toggle('active')
+          span.classList.toggle('active')
+        }
+      </script>
+</body>
+</html>

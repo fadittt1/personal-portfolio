@@ -1,0 +1,575 @@
+
+
+
+body{
+    transform: scale(0.9);
+    padding: 20px;
+    margin: auto;
+    background-color: #081b29;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.full-content{
+    width: 85%;
+    height: 690px;
+}
+header{
+    display: flex;
+}
+.search{
+    display: flex;
+    margin-left: auto;
+}
+.search a{
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: 1s;
+}
+.search a:hover{
+    color: #00abf0;
+}
+h3{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: aliceblue;
+    transition: 1s;
+    margin: 30px;
+}
+h3:hover{
+    color: #00abf0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.tsawer{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 80px;
+}
+.tsawer i{
+    margin: 0 20px;
+    border: 2px solid #00abf0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #00abf0;
+    font-size: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.tsawer i:hover{
+    background-color: #00abf0;
+    color: #081b29;
+}
+
+
+
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+.content{
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+.left{
+    width: 50%;
+    
+}
+.left .sub-content{
+    border: 2px solid #00abf0;
+    height: 365px;
+    border-radius: 10px;
+}
+.right{
+    width: 50%;
+    margin-left: 40px;
+}
+.right .sub-content{
+    border: 2px solid #00abf0;
+    height: 365px;
+    border-radius: 10px;
+}
+.title{
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.descreption-skills{
+    font-weight: bold;
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+.pourc{
+    margin-left: auto;
+}
+.skills-level{
+    background-color: #00abf0;
+    height: 10px;
+    border-radius: 3px;
+}
+.skills-level-border{
+    cursor: pointer;
+    border: 1px solid #00abf0;
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+#skills{
+    color: #00abf0;
+}
+
+/*as3eb program*/
+
+
+
+
+/*animations*/
+@keyframes html {
+    from{
+        background: #00abf0;
+        width: 0;
+    }
+    to{
+        background-color: #00abf0;
+        width: 95%;
+    }   
+}
+@keyframes css {
+    from{
+        background: #00abf0;
+        width: 0;
+    }
+    to{
+        background-color: #00abf0;
+        width: 84%;
+    }   
+}
+@keyframes js {
+    from{
+        background: #00abf0;
+        width: 0;
+    }
+    to{
+        background-color: #00abf0;
+        width: 66%;
+    }   
+}
+@keyframes py {
+    from{
+        background: #00abf0;
+        width: 0;
+    }
+    to{
+        background-color: #00abf0;
+        width: 80%;
+    }   
+}
+@keyframes wd {
+    from{
+        background: #00abf0;
+        width: 0;
+    }
+    to{
+        background-color: #00abf0;
+        width: 70%;
+    }   
+}
+@keyframes dev {
+    from{
+        background: #00abf0;
+        width: 0;
+    }
+    to{
+        background-color: #00abf0;
+        width: 92%;
+    }   
+}
+@keyframes gd {
+    from{
+        background: #00abf0;
+        width: 0;
+    }
+    to{
+        background-color: #00abf0;
+        width: 77%;
+    }   
+}
+@keyframes seo {
+    from{
+        background: #00abf0;
+        width: 0;
+    }
+    to{
+        background-color: #00abf0;
+        width: 40%;
+    }   
+}
+
+
+#html{
+    width: 95%;
+    animation-name: html;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+
+/*------------------tari9a o5ra (5iir)-----------------*/
+
+#css{
+    width: 84%;
+    cursor: pointer;
+    animation-name: css;
+    animation-duration: 1s;
+}
+.cursor{
+    border-radius: 3px;
+    height: 100%;
+    width: 0;
+    background-color: #00abf0;
+    transition: 0s;
+    
+}
+
+/*------------------tari9a o5ra (5iir)-----------------*/
+
+
+
+
+/* -------------------a9wa code------------------------*/
+.skills-level-border:hover >div .cursor{
+    width: 100%;
+    transition: 1s;
+}
+.skills-level-border:hover >div{
+    background-color: transparent;
+}
+/* -------------------a9wa code------------------------*/
+
+
+
+
+
+
+
+
+#js{
+    cursor: pointer;
+    width: 66%;
+    animation-name: js;
+    animation-duration: 1s;
+}
+
+
+
+#py{
+    cursor: pointer;
+    width: 80%;
+    animation-name: py;
+    animation-duration: 1s;
+}
+
+
+
+
+
+#wd{
+    cursor: pointer;
+    width: 70%;
+    animation-name: wd;
+    animation-duration: 1s;
+}
+
+
+
+#dev{
+    animation-name: dev;
+    animation-duration: 1s;
+    cursor: pointer;
+    width: 92%;
+}
+
+
+
+
+
+
+#gd{
+    animation-name: gd;
+    animation-duration: 1s;
+    cursor: pointer;
+    width: 77%;
+}
+
+
+
+
+
+#seo{
+    animation-name: seo;
+    animation-duration: 1s;
+    cursor: pointer;
+    width: 40%;
+}
+
+
+
+/* dark/liht switche css */
+#dark{
+    position: absolute;top: 35px; font-weight: bold; color: #081b29;
+}
+#light{
+    position: absolute;top: 35px;font-weight: bold;color: #00abf0;
+}
+#toggle{
+    width: 80px;
+    height: 40px;
+    background-color:  rgb(15, 19, 19);
+    border-radius: 160px;
+    transition: 0.5s;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.indicator{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: linear-gradient(to bottom, #eaeaea,#f9f9f9);
+    display: block;
+    border-radius: 50%;
+    top: 5px;
+    left: 7px;
+    transition: 0.5;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1),
+                inset 0 4px 4px rgba(255,255,255,1),
+                inset 0 -4px 4px rgba(255,255,255,0.05);
+    transition: 0.5s;
+}
+#toggle.active .indicator{
+    left: 45px;
+    background: linear-gradient(to bottom, #444,#222);
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5),
+                inset 0 4px 4px rgba(255,255,255,0.2),
+                inset 0 -4px 4px rgba(255,255,255,0.2);
+}
+body.active{
+    background-color: #00abf0;
+}
+#toggle.active{
+    background-color: white;
+    box-shadow: inset 0 2px 60px rgba(0, 0, 0, 0.1),
+                inset 0 2px 8px rgba(0, 0, 0, 0.1),
+                inset 0 -4px 8px rgba(0, 0, 0, 0.05);
+}
+#dark.active{
+    z-index: 1;
+}
+
+button.active{
+    background-color: #081b29;
+    color: #00abf0;
+    border: 2px solid #081b29;
+}
+#tsawer.active i{
+    background-color: #00abf0;
+    border: 1px solid #081b29;
+    color: #081b29;
+}
+#tsawer.active i:hover{
+    background-color: #081b29;
+    color: #00abf0;
+}
+h3.active{
+    transition: 1s;
+}
+h3.active:hover{
+    color: #081b29;
+}
+#search.active a:hover{
+    color: #081b29;
+}
+#skills.active{
+    color: #081b29;
+}
+#content.active >div >div{
+    border: 3px solid #081b29;
+}
+#content.active >div >div >div{
+    border-color: #081b29;
+}
+
+
+
+
+#content.active >div >div >div >div{
+    background-color: #081b29;
+}
+
+
+#content.active >div >div >div >div >div{
+    background-color: #081b29;
+}
+
+
+
+#content.active .skills-level-border:hover >div{
+    background: transparent;
+}
+
+
+
+/* responsive*/
+@media (max-width:600px){
+    #toggle{
+        position: absolute;
+        top: 130px;
+        left: 60px;
+    }
+    #light{
+        position: absolute;
+        top: 90px;
+        left: 70px;
+    }
+    #dark{
+        position: absolute;
+        top: 90px;
+        left: 70px;
+        width: fit-content;
+    }
+    .search a{
+        margin-left: 10px;
+    }
+    .search{
+        width: 100%;
+        margin-left: 2px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    #h3{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .tsawer i{
+        margin: 0 5px;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .tsawer{
+        margin-top: 10px;
+        position: relative;
+        left: 0;
+    }
+    .full-content{
+        width: 100%;
+    }
+}
+
+@media (min-width:601px) and (max-width:992px){
+    .content{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin-left: 0;
+    }
+    .tsawer{
+        margin-top: 10px;
+        position: relative;
+        left: 0;
+    }
+    #toggle{
+        position: absolute;
+        top: 130px;
+        left: 60px;
+    }
+    #light{
+        position: absolute;
+        top: 90px;
+        left: 70px;
+    }
+    #dark{
+        position: absolute;
+        top: 90px;
+        left: 70px;
+        width: fit-content;
+    }
+
+}
+@media (min-width:601px) and (max-width:992px){
+    #toggle{
+        position: absolute;
+        top: 130px;
+        left: 60px;
+    }
+    #light{
+        position: absolute;
+        top: 90px;
+        left: 70px;
+    }
+    #dark{
+        position: absolute;
+        top: 90px;
+        left: 70px;
+        width: fit-content;
+    }
+    .full-content{
+        width: 100%;
+    }
+
+
+}
+@media (min-width:601px) and (max-width:633px){
+    .search a{
+        margin-left: 10px;
+    }
+    .search{
+        width: 100%;
+        margin-left: 2px;
+    }
+    #h3{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+
+}
+@media (max-height:607px) {
+    .tsawer{
+        margin-top: 10px;
+        position: relative;
+        left: 0;
+    }
+}

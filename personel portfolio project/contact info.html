@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conatct</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="full-content" id="fullcontent">
+        <header>
+            <div>
+                <a href="home.html"><h3 id="h3">Fadi</h3></a>
+            </div>
+            <div style="margin-left: 40px;">
+                <p id="dark">Dark:</p>
+                <p id="light">Light:</p>
+                <div id="toggle">
+                    <i class="indicator"></i>
+                </div>
+            </div>
+            
+            <div class="search" id="search">
+                <a href="home.html"><h4>home</h4></a>
+                <a href="skills.html"><h4>skills</h4></a>
+                <a href="projects.html"><h4>projects</h4></a>
+                <a href="contact info.html"><h4>contact</h4></a>
+            </div>
+        </header>
+        <div class="content">
+            <h1>Contact <span class="me" id="me">Me !</span></h1>
+            <div class="sub-content" id="subcontent">
+                <form action="">
+                    <div class="inputs">
+                        <input class="input" type="text" placeholder="Full Name" id="inputm1">
+                        <input type="email" placeholder="Email Adress">
+                    </div>
+                    <div class="inputs">
+                        <input type="number" placeholder="Mobile Number" id="inputm2">
+                        <input type="text" placeholder="Email Subject">
+                    </div>
+                    <div class="inputs">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="button"><input type="submit" id="button" value="Submit"></div>
+                </form>
+            </div>
+        </div>
+        <footer class="headfoot">
+
+            <div class="tsawer" id="tsawer">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="https://mail.google.com/mail/u/0/#search/fadibencheikh4%40gmail.com?compose=jrjtXFBVMkxpqCTnpDhpnwnCTRTDHTqcMwRvwdLMLBzfWFqKKjqHkHbSbVJHPnGzMxNkfCxH"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.facebook.com/bencheikh.fadi/?locale=fr_FR"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/stark-fg-44911b2a2"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+     <script>
+        const body = document.querySelector('body')
+        const toggle = document.getElementById('toggle');
+        const dark = document.getElementById('dark');
+        const h3 = document.getElementById('h3');
+        const search = document.getElementById('search');
+        const fullcontent = document.getElementById('fullcontent');
+        const tsawer = document.getElementById('tsawer');
+        const me = document.getElementById('me');
+        const subcontent = document.getElementById('subcontent');
+        toggle.onclick = function(){
+          toggle.classList.toggle('active')
+          body.classList.toggle('active')
+          dark.classList.toggle('active')
+          h3.classList.toggle('active')
+          search.classList.toggle('active')
+          fullcontent.classList.toggle('active')
+          tsawer.classList.toggle('active')
+          me.classList.toggle('active')
+          subcontent.classList.toggle('active')
+        }
+      </script> 
+ 
+
+</body>
+</html>

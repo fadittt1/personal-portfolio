@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skills</title>
+    <link rel="stylesheet" href="skills.css">
+</head>
+<body>
+    <div class="full-content" id="fullcontent">
+        <header>
+            <div>
+                <a href="home.html"><h3 id="h3">Fadi</h3></a>
+            </div>
+            <div style="margin-left: 40px;">
+                <p id="dark">Dark:</p>
+                <p id="light">Light:</p>
+                <div id="toggle">
+                    <i class="indicator"></i>
+                </div>
+            </div>
+            
+            <div class="search" id="search">
+                <a href="home.html"><h4>home</h4></a>
+                <a href="skills.html"><h4>skills</h4></a>
+                <a href="projects.html"><h4>projects</h4></a>
+                <a href="contact info.html"><h4>contact</h4></a>
+            </div>
+        </header>
+        <h1>My <span id="skills">Skills</span></h1>
+        <div class="content" id="content">
+            <div class="left">
+                <p class="title">coding skills</p>
+                <div class="sub-content" id="subcontent">
+                    <div class="descreption-skills"><p>HTML</p><p class="pourc">95%</p></div>
+                    <div class="skills-level-border"><div class="skills-level" id="html" class="html"><div class="cursor"></div></div></div>
+                    <div class="descreption-skills"><p>CSS</p><p class="pourc">84%</p></div>
+                    <div class="skills-level-border"><div class="skills-level" id="css"><div class="cursor"></div></div></div>
+                    <div class="descreption-skills"><p>JavaScript</p><p class="pourc">66%</p></div>
+                    <div class="skills-level-border"><div class="skills-level" id="js"><div class="cursor"></div></div></div>
+                    <div class="descreption-skills"><p>Python</p><p class="pourc">80%</p></div>
+                    <div class="skills-level-border"><div class="skills-level" id="py"><div class="cursor"></div></div></div>
+                </div>
+            </div>
+            <div class="right">
+                <p class="title">professional skills</p>
+                <div class="sub-content">
+                    <div class="descreption-skills"><p>Web Design</p><p class="pourc">70%</p></div>
+                    <div class="skills-level-border"><div class="skills-level" id="wd"><div class="cursor"></div></div></div>
+                    <div class="descreption-skills"><p>Web Development</p><p class="pourc">92%</p></div>
+                    <div class="skills-level-border"><div class="skills-level" id="dev"><div class="cursor"></div></div></div>
+                    <div class="descreption-skills"><p>Graphic Design</p><p class="pourc">77%</p></div>
+                    <div class="skills-level-border"><div class="skills-level" id="gd"><div class="cursor"></div></div></div>
+                    <div class="descreption-skills"><p>Seo Marketing</p><p class="pourc">40%</p></div>
+                    <div class="skills-level-border"><div class="skills-level" id="seo"><div class="cursor"></div></div></div>
+                </div>
+            </div>
+
+        </div>
+        <footer class="headfoot">
+            <div class="tsawer" id="tsawer">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="https://mail.google.com/mail/u/0/#search/fadibencheikh4%40gmail.com?compose=jrjtXFBVMkxpqCTnpDhpnwnCTRTDHTqcMwRvwdLMLBzfWFqKKjqHkHbSbVJHPnGzMxNkfCxH"><i class="fa fa-envelope"></i></a>
+                <a href="https://www.facebook.com/bencheikh.fadi/?locale=fr_FR"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/stark-fg-44911b2a2"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+     <script>
+        const body = document.querySelector('body')
+        const toggle = document.getElementById('toggle');
+        const dark = document.getElementById('dark');
+        const h3 = document.getElementById('h3');
+        const search = document.getElementById('search');
+        const fullcontent = document.getElementById('fullcontent');
+        const tsawer = document.getElementById('tsawer');
+        const skills = document.getElementById('skills');
+        const content = document.getElementById('content');
+        toggle.onclick = function(){
+          toggle.classList.toggle('active')
+          body.classList.toggle('active')
+          dark.classList.toggle('active')
+          h3.classList.toggle('active')
+          search.classList.toggle('active')
+          fullcontent.classList.toggle('active')
+          tsawer.classList.toggle('active')
+          skills.classList.toggle('active')
+          content.classList.toggle('active')
+        }
+      </script>
+      
+</body>
+</html>
